@@ -79,7 +79,7 @@ class Apriori:
                         cand_ck_set.append(cand_ck.copy())
                     cand_ck.pop()
         return cand_ck_set
-
+ #test
     def prune(self, cand_ck_item, ck_1):
         # 根据k-1频繁项集来对k频繁项是否频繁
         for item in cand_ck_item[:-2]:
